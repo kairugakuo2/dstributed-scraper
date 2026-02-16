@@ -12,6 +12,12 @@ Webscrapper using Distributed System Task Queues
 # useful commands
 `npm init -y`
 
+# commit conentions
+`feat` : new feature
+`fix` : bug fix
+`doc`: documentation only changes
+`refactor`: code change with no bug fix or new feature added
+`chore`: intiial project setup, changes to build process/libraries/tools
 
 # Phase 0
 - intial project setup and downloading dependencies
