@@ -31,5 +31,9 @@ Webscrapper using Distributed System Task Queues
     - both Coordinator and Worker will not share in memeory queue just by importing a module -> need other solution
 - **solution(s)**:
     1. **HTTP** (Coordinator runs server, worker calls it) (Phase 1)
-    2. **IPC** (child_process fork with message passing) (Phase 2)
-    3. **Redis** (Phase 3)
+    2. IPC (child_process fork with message passing)
+    3. **Redis** (Phase 2)
+
+# Phase 1 - HTTP
+
+# Phase 2 - Redis
