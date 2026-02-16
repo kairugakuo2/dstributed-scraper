@@ -1,2 +1,1 @@
-
 console.log("Process 1: Coordinator running!... ")

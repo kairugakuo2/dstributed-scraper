@@ -36,4 +36,15 @@ Webscrapper using Distributed System Task Queues
 
 # Phase 1 - HTTP
 
+1. Can worker fetch public page and extract something?
+    - use `fetch` on node vs using custom solution
+    - use `cheerio` to parse through raw html
+    - add error handling to prevent node crash for every invalid link
+    - added custom URL inputs for worker to fetch via terminal -> `npm run testFetchWorker <url>`
+2. Can coordinator give a job to worker and it be successful, OR handled gracefuly?
+    - let coordinator spawn worker process
+    - send a URL
+    - recieve JSON result back -> no crashes
+3. 
+
 # Phase 2 - Redis
