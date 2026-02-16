@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "coordinator": "node coordinator/index.js",
-    "worker": "node worker/index.js"
+    "worker": "node worker/index.js",
+    "testFetchWorker": "node worker/testFetch.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/kairugakuo2/dstributed-scraper/issues"
   },
