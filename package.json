@@ -1,0 +1,31 @@
+{
+  "name": "dstributed-scraper",
+  "version": "1.0.0",
+  "description": "Webscrapper using Distributed System Task Queues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coordinator": "node coordinator/index.js",
+    "worker": "node worker/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kairugakuo2/dstributed-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kairugakuo2/dstributed-scraper/issues"
+  },
+  "homepage": "https://github.com/kairugakuo2/dstributed-scraper#readme",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
